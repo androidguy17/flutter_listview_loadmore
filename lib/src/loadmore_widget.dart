@@ -394,6 +394,7 @@ class DefaultLoadMoreDelegate extends LoadMoreDelegate {
               height: _loadmoreIndicatorSize,
               child: CircularProgressIndicator(
                 // backgroundColor: Colors.red,
+                
                 color: Color(0xFF4D63DD),
               ),
             ),
