@@ -393,7 +393,8 @@ class DefaultLoadMoreDelegate extends LoadMoreDelegate {
               width: _loadmoreIndicatorSize,
               height: _loadmoreIndicatorSize,
               child: CircularProgressIndicator(
-                backgroundColor: Colors.red,
+                // backgroundColor: Colors.red,
+                color: Color(0xFF4D63DD),
               ),
             ),
             Padding(
